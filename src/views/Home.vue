@@ -23,7 +23,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="4">
+        <v-col cols="6">
           <v-card class="mx-auto" max-width="400">
             <v-img
               class="white--text align-end"
@@ -46,7 +46,31 @@
             <v-card> </v-card>
           </v-card>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="6">
+          <v-card class="mx-auto" max-width="400">
+            <v-img
+              class="white--text align-end"
+              height="100px"
+              src="@/assets/mobi2.jpg"
+            >
+            </v-img>
+            <v-card-subtitle class="pb-0"
+              ><strong>MOBIERA</strong></v-card-subtitle
+            >
+            <v-card-text class="text--primary mt-2">
+              <div>
+                MOBIERA is a Technology Driven and Innovation Company focused on
+                developing premium software and cutting-edge Solutions for
+                Mobile Operators around the world. MOBIERA helps MNOs to
+                increase revenues by integrating content management, advertising
+                strategies, and big data solutions.
+              </div>
+            </v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
+      <v-row>
+           <v-col cols="12">
           <v-card class="mx-auto" max-width="800">
             <v-card-subtitle class="pb-0"></v-card-subtitle>
             <v-card-actions>
@@ -91,28 +115,6 @@
                 </v-btn>
               </template>
             </v-data-table>
-          </v-card>
-        </v-col>
-        <v-col cols="4">
-          <v-card class="mx-auto" max-width="400">
-            <v-img
-              class="white--text align-end"
-              height="100px"
-              src="@/assets/mobi2.jpg"
-            >
-            </v-img>
-            <v-card-subtitle class="pb-0"
-              ><strong>MOBIERA</strong></v-card-subtitle
-            >
-            <v-card-text class="text--primary mt-2">
-              <div>
-                MOBIERA is a Technology Driven and Innovation Company focused on
-                developing premium software and cutting-edge Solutions for
-                Mobile Operators around the world. MOBIERA helps MNOs to
-                increase revenues by integrating content management, advertising
-                strategies, and big data solutions.
-              </div>
-            </v-card-text>
           </v-card>
         </v-col>
       </v-row>
