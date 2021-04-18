@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "andres@gmail.com",
+      "pss": "456",
+      "user": "Andres Pena",
+      "id": 1
+    },
+    {
+      "email": "tony@gmail.com",
+      "pss": "123",
+      "user": "Tony Stark",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "email": "paula@outlook.com",
+      "pss": "123",
+      "user": "Paula Cardona"
+    }
+  ]
+}

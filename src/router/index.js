@@ -1,0 +1,39 @@
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "../views/Login.vue";
+
+Vue.use(VueRouter);
+
+const routes = [
+  {
+    path: "/",
+    name: "Login",
+    component: Home,
+  },
+  {
+    path: "/home",
+    name: "Home",
+    component: () =>
+      import("../views/Home.vue"),
+  },
+  {
+    path: "/usr",
+    name: "Usr",
+    component: () =>
+      import("../views/usr.vue"),
+  },
+  {
+    path: "/upsert",
+    name: "Upsert",
+    component: () =>
+      import("../components/users/upsertUser.vue"),
+  },
+];
+
+const router = new VueRouter({
+  mode: "history",
+  base: process.env.BASE_URL,
+  routes,
+});
+
+export default router;
